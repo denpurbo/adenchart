@@ -11,11 +11,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/shortcodes',
-    name: 'Shortcodes',
-    component: () => import(/* webpackChunkName: "shortcodes" */ '../views/shortcodes/Index')
-  },
-  {
     props: true,
     path: '/currencies/:slug?',
     name: 'Currencies',
